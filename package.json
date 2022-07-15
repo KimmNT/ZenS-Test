@@ -17,8 +17,14 @@
     "react-native": "0.68.2",
     "react-native-web": "0.17.7"
   },
+  "rnpm": {
+    "assets": [
+    "./assets/fonts/"
+    ]
+},
   "devDependencies": {
     "@babel/core": "^7.12.9"
   },
   "private": true
+  
 }

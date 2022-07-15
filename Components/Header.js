@@ -4,10 +4,10 @@ import { View, Text, StyleSheet } from "react-native";
 function Header(props) {
   return (
     <View style={styles.container}>
-      <Text style={{ color: "#fff", fontSize: 17, marginBottom: 20 }}>
+      <Text style={{ color: "#fff", fontSize: 15, marginBottom: 20 }}>
         A joke a day keeps the doctor away
       </Text>
-      <Text style={{ color: "#fff", fontSize: 10 }}>
+      <Text style={{ color: "#fff", fontSize: 9 }}>
         If you joke wrong way, your teeth have to pay. (Serious)
       </Text>
     </View>
@@ -15,11 +15,11 @@ function Header(props) {
 }
 const styles = StyleSheet.create({
   container: {
-    padding: 45,
-    width: 380,
+    padding: 35,
+    width: 330,
     marginLeft: 10,
     flexDirection: "column",
-    backgroundColor: "#59A061",
+    backgroundColor: "#59B06B",
     justifyContent: "center",
     alignItems: "center",
   },

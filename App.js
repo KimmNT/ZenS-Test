@@ -36,20 +36,21 @@ export default function App() {
         >
           <View
             style={{
-              marginRight: 10,
               marginTop: 10,
+              marginRight: 5,
             }}
           >
             <Text style={{ color: "grey" }}>Handicrafted by</Text>
-            <Text style={{ fontWeight: "bold", textAlign: "right" }}>
+            <Text style={{ color: "#4D4D4D", textAlign: "right" }}>
               Jim HLS
             </Text>
           </View>
           <Image
             style={{
               borderRadius: 50,
-              width: 50,
-              height: 50,
+              width: 40,
+              height: 40,
+              marginTop: 10,
             }}
             source={require("./assets/user.jpg")}
           />

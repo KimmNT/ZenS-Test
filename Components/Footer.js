@@ -13,6 +13,7 @@ function Footer(props) {
           fontSize: 10,
           marginLeft: 10,
           marginTop: 10,
+          width: 300,
         }}
       >
         This appis created as part of HLSolutions program. The materials

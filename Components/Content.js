@@ -28,11 +28,11 @@ function Content(props) {
       >
         <TouchableOpacity
           style={{
-            backgroundColor: "#2C7EDB",
+            backgroundColor: "#447CD3",
             justifyContent: "center",
             alignItems: "center",
             padding: 10,
-            width: 120,
+            width: 125,
             marginRight: 20,
             height: 40,
           }}
@@ -42,16 +42,16 @@ function Content(props) {
         </TouchableOpacity>
         <TouchableOpacity
           style={{
-            backgroundColor: "#59A061",
+            backgroundColor: "#59B06B",
             padding: 10,
-            width: 120,
+            width: 125,
             height: 40,
             justifyContent: "center",
             alignItems: "center",
           }}
           onPress={() => Alert.alert("I Don't Like It!!")}
         >
-          <Text style={styles.buttontext}>This is not funy!</Text>
+          <Text style={styles.buttontext}>This is not funny!</Text>
         </TouchableOpacity>
       </View>
     </View>
@@ -68,10 +68,10 @@ const styles = StyleSheet.create({
     marginLeft: 10,
   },
   content: {
-    fontSize: 15,
-    color: "grey",
-    fontWeight: "600",
-    width: 300,
+    fontSize: 13,
+    color: "#7A7A7A",
+    width: 260,
+    fontFamily: "Times New Romance",
   },
   buttontext: {
     color: "#fff",
