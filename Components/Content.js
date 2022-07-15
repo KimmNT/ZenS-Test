@@ -11,7 +11,7 @@ import {
 function Content(props) {
   return (
     <View style={styles.container}>
-      <Text style={{ fontSize: 17, color: "grey", fontWeight: "400" }}>
+      <Text style={styles.content}>
         A child asked his father, "How were people born?" So his father said,
         "Adam and Eve made babies, then their babies became adults and made
         babies, and so on." The child then went to his mother, asked her the
@@ -22,18 +22,19 @@ function Content(props) {
       </Text>
       <View
         style={{
-          paddingTop: 70,
+          paddingTop: 150,
           flexDirection: "row",
         }}
       >
         <TouchableOpacity
           style={{
-            marginRight: 70,
-            backgroundColor: "#2196f3",
+            backgroundColor: "#2C7EDB",
             justifyContent: "center",
             alignItems: "center",
             padding: 10,
-            width: 150,
+            width: 120,
+            marginRight: 20,
+            height: 40,
           }}
           onPress={() => Alert.alert("I Like It!!")}
         >
@@ -41,9 +42,10 @@ function Content(props) {
         </TouchableOpacity>
         <TouchableOpacity
           style={{
-            backgroundColor: "#4caf50",
+            backgroundColor: "#59A061",
             padding: 10,
-            width: 150,
+            width: 120,
+            height: 40,
             justifyContent: "center",
             alignItems: "center",
           }}
@@ -63,6 +65,13 @@ const styles = StyleSheet.create({
     paddingBottom: 50,
     justifyContent: "center",
     alignItems: "center",
+    marginLeft: 10,
+  },
+  content: {
+    fontSize: 15,
+    color: "grey",
+    fontWeight: "600",
+    width: 300,
   },
   buttontext: {
     color: "#fff",

@@ -10,6 +10,9 @@ function Footer(props) {
           color: "grey",
           textAlign: "center",
           marginBottom: 10,
+          fontSize: 10,
+          marginLeft: 10,
+          marginTop: 10,
         }}
       >
         This appis created as part of HLSolutions program. The materials
@@ -19,7 +22,14 @@ function Footer(props) {
         any loss or damage which may arise from relian on the information
         contained in this site.
       </Text>
-      <Text style={{ color: "grey", fontSize: 20, fontWeight: "bold" }}>
+      <Text
+        style={{
+          color: "grey",
+          fontSize: 15,
+          fontWeight: "500",
+          marginBottom: 10,
+        }}
+      >
         Copyright 2021 HLS
       </Text>
     </View>
@@ -31,6 +41,11 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     paddingHorizontal: 20,
+    width: 380,
+    borderTopWidth: 1,
+    borderTopColor: "#EBEBEB",
+    borderBottomWidth: 1,
+    borderBottomColor: "#EBEBEB",
   },
 });
 export default Footer;
