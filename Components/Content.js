@@ -64,7 +64,7 @@ function Content(props) {
           }}
           onPress={randomJoke}
         >
-          <Text style={styles.buttontext}>This is not Funny.</Text>
+          <Text style={styles.buttontext}>This is not funny.</Text>
         </TouchableOpacity>
       </View>
     </View>
