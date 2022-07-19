@@ -10,7 +10,6 @@ array.sort((firstNum, secoundNum) => {
         return 0;
     }
 });
-//Nếu hàm trả về số > 0 thì secoundNum sẽ đứng trước firstNum và ngược lại.
 
 //Sum the minium values
 function sumMinArray(array){
