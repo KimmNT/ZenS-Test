@@ -6,7 +6,7 @@ function Footer(props) {
     <View style={styles.container}>
       <View
         style={{
-          width: 365,
+          width: 375,
           justifyContent: "center",
           alignItems: "center",
         }}
@@ -18,6 +18,7 @@ function Footer(props) {
             padding: 25,
             textAlign: "center",
             fontSize: 10,
+            fontWeight: "500",
           }}
         >
           This appis created as part of HLSolutions program. The materials

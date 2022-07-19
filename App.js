@@ -16,7 +16,6 @@ import {
   Roboto_300Light,
   Roboto_500Medium,
   Roboto_700Bold,
-  Roboto_400Regular,
 } from "@expo-google-fonts/roboto";
 
 export default function App() {
@@ -24,7 +23,6 @@ export default function App() {
     Roboto_700Bold,
     Roboto_500Medium,
     Roboto_300Light,
-    Roboto_400Regular,
   });
   return (
     <SafeAreaView style={styles.container}>
@@ -88,6 +86,6 @@ const styles = StyleSheet.create({
     width: 400,
     justifyContent: "center",
     alignItems: "center",
-    fontFamily: "Roboto_400Regular",
+    // fontFamily: "Roboto_500Medium",
   },
 });

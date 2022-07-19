@@ -9,13 +9,13 @@ function Header(props) {
           color: "#fff",
           fontSize: 15,
           marginBottom: 20,
-          fontFamily: "Roboto_500Medium",
+          // fontFamily: "Roboto_500Medium",
         }}
       >
         A joke a day keeps the doctor away
       </Text>
       <Text
-        style={{ color: "#fff", fontSize: 9, fontFamily: "Roboto_500Medium" }}
+        style={{ color: "#fff", fontSize: 9 }} //fontFamily: "Roboto_500Medium" }}
       >
         If you joke wrong way, your teeth have to pay. (Serious)
       </Text>

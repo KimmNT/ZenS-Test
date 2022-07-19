@@ -79,21 +79,22 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     marginLeft: 10,
-    fontFamily: "Roboto_500Medium",
+    // fontFamily: "Roboto_500Medium",
   },
   content: {
     fontSize: 13,
     color: "#7A7A7A",
     width: 260,
     height: 200,
-    fontFamily: "Roboto_500Medium",
+    // fontFamily: "Roboto_500Medium",
     letterSpacing: 0.5,
     lineHeight: 15,
+    fontWeight: "500",
   },
   buttontext: {
     color: "#fff",
     fontSize: 10,
-    fontFamily: "Roboto_500Medium",
+    // fontFamily: "Roboto_500Medium",
   },
 });
 
